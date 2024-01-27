@@ -47,7 +47,7 @@ function limpiaCaja() {
 };
 
 function condicionesIniciales() {
-    asignarElementoTexto(`h1`, 'juego del Número Secreto');
+    asignarElementoTexto(`h1`, 'EL NÚMERO SECRETO de Ander');
     asignarElementoTexto(`p`, `Indica un número (1-${numeroMaximo}):`);
     numeroSecreto = asignarNumeroSecreto();
     intentos = 1;
